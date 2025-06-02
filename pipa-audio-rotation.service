@@ -1,11 +1,11 @@
 [Unit]
 Description=Pipa audio rotation
-Requires=pulseaudio.service
+Requires=pulseaudio.service lipstick.service
 
 [Service]
 ExecStart=/usr/bin/pipaAudioRotation
 Restart=always
-RestartSec=1
+RestartSec=5
 
 [Install]
 WantedBy=user-session.target

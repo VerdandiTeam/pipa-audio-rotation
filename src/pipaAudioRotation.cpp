@@ -24,7 +24,6 @@
 #include <QtWidgets/qapplication.h>
 #include <QProcess>
 #include <QScreen>
-#include <lipstick-qt5/lipstickcompositor.h>
 
 class PulseAudio {
 private:
