@@ -3,7 +3,7 @@ Description=Pipa audio rotation
 Requires=pulseaudio.service lipstick.service
 
 [Service]
-ExecStart=/usr/bin/pipaAudioRotation
+ExecStart=/usr/bin/pipa-audio-rotation
 Restart=always
 RestartSec=5
 
