@@ -21,7 +21,7 @@
 #include <QRotationSensor>
 #include <QDebug>
 #include <QOrientationSensor>
-#include <QtWidgets/qapplication.h>
+#include <QGuiApplication>
 #include <QProcess>
 #include <QScreen>
 
