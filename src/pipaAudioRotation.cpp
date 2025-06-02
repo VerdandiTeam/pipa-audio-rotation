@@ -87,7 +87,7 @@ public:
      * Exits the main loop with the specified return code.
      */
     void quit(int ret = 0) {
-        QApplication::quit();
+        QGuiApplication::quit();
     }
 
     void setOrientation(Orientation orientation) {
