@@ -1,9 +1,9 @@
-Name:       pipaAudioRotation
+Name:       pipa-audio-rotation
 
 Summary:    Xiaomi Pad 6 audio rotation service
 Version:    1.0
 Release:    1
-License:    LICENSE
+License:    WTFPL
 URL:        http://example.org/
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   pulseaudio
