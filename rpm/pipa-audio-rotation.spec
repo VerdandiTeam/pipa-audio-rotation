@@ -34,17 +34,6 @@ BuildRequires:  alsa-lib-devel
 mkdir -p %{buildroot}/usr/lib/systemd/user/user-session.target.wants/
 ln -s ../pipa-audio-rotation.service %{buildroot}/usr/lib/systemd/user/user-session.target.wants/
 
-%post
-%systemd_user_post pipa-audio-rotation.service
-
-%preun
-%systemd_user_preun pipa-audio-rotation.service
-
-%postun
-%systemd_user_postun_with_restart pipa-audio-rotation.service
-%systemd_user_postun_with_reload pipa-audio-rotation.service
-%systemd_user_postun pipa-audio-rotation.service
-
 %files
 %defattr(-,root,root,-)
 %{_bindir}/%{name}
